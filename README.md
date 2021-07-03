@@ -9,3 +9,6 @@ https://askubuntu.com/questions/597395/how-to-set-custom-keyboard-shortcuts-from
 
 Full RGB
 https://askubuntu.com/a/678301
+
+Do not suspend on lid close
+https://ubuntuhandbook.org/index.php/2020/05/lid-close-behavior-ubuntu-20-04/
