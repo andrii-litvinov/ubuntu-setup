@@ -16,8 +16,8 @@ https://ubuntuhandbook.org/index.php/2020/05/lid-close-behavior-ubuntu-20-04/
 Remove keybindings used by Rider
 ```bash
 gsettings list-recursively | grep "<Control><Shift><Alt>"
-gsettings set org.gnome.desktop.wm.keybindings move-to-workspace-right "[]"
-gsettings set org.gnome.desktop.wm.keybindings move-to-workspace-left "[]"
-gsettings set org.gnome.desktop.wm.keybindings move-to-workspace-down "['<Super><Shift>Page_Down']"
-gsettings set org.gnome.desktop.wm.keybindings move-to-workspace-up "['<Super><Shift>Page_Up']"
+gsettings set org.gnome.desktop.wm.keybindings move-to-workspace-right "['<Super><Shift>Page_Down', '<Super><Shift><Alt>Right']"
+gsettings set org.gnome.desktop.wm.keybindings move-to-workspace-left "['<Super><Shift>Page_Up', '<Super><Shift><Alt>Left']"
+gsettings set org.gnome.desktop.wm.keybindings move-to-workspace-down "[]"
+gsettings set org.gnome.desktop.wm.keybindings move-to-workspace-up "[]"
 ```
