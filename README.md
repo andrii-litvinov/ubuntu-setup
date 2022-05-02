@@ -21,3 +21,6 @@ gsettings set org.gnome.desktop.wm.keybindings move-to-workspace-left "['<Super>
 gsettings set org.gnome.desktop.wm.keybindings move-to-workspace-down "[]"
 gsettings set org.gnome.desktop.wm.keybindings move-to-workspace-up "[]"
 ```
+
+PCIe Bus error severity=Corrected
+https://askubuntu.com/a/926352/1513408
