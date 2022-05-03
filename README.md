@@ -24,3 +24,5 @@ gsettings set org.gnome.desktop.wm.keybindings move-to-workspace-up "[]"
 
 PCIe Bus error severity=Corrected
 https://askubuntu.com/a/926352/1513408
+
+Zoom screen sharing on Wayland https://gitlab.gnome.org/GNOME/gnome-shell/-/issues/4665
