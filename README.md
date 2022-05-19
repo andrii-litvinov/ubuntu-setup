@@ -26,3 +26,8 @@ PCIe Bus error severity=Corrected
 https://askubuntu.com/a/926352/1513408
 
 Zoom screen sharing on Wayland https://gitlab.gnome.org/GNOME/gnome-shell/-/issues/4665
+
+libdl.so
+```sh
+ln -s /lib/x86_64-linux-gnu/libdl.so.2 /lib/x86_64-linux-gnu/libdl.so
+```
