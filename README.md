@@ -8,7 +8,9 @@ Shurtcus
 https://askubuntu.com/questions/597395/how-to-set-custom-keyboard-shortcuts-from-terminal
 
 Full RGB
-https://askubuntu.com/a/678301
+```bash
+echo 'xrandr --output DP-1 --set "Broadcast RGB" "Full"' | tee .xprofile
+```
 
 Do not suspend on lid close
 https://ubuntuhandbook.org/index.php/2020/05/lid-close-behavior-ubuntu-20-04/
